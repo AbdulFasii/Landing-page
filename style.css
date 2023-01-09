@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+* {
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+}
+
+/*header starts here*/
+
+#nav-bar {
+  background-color: rgb(255, 255, 255);
+  width:100%;
+  height: 50px;
+  position: fixed;
+  z-index: 100;
+}
+
+#menu {
+  width: fit-content;
+  margin: auto;
+}
+
+#menu li {
+  display: inline;
+  margin: 0px 50px;
+  position: relative;
+  top: 14px;
+  padding: 17px 10px;
+}
+
+#menu li a {
+  font-family: 'maven pro';
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#help {
+  height: 50px;
+  background-color: black;
+}
+
+
+/*headers finished*/
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+#whitespace {
+  background-color: white;
+  height: 200px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+#home h1 {
+  position: relative;
+  bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+#home h3 {
+  position: relative;
+  top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: white;
+  padding: 0px 10px 4px 10px;
+  background-color: rgb(255, 124, 124);
+  border-radius: 2px;
+}
+
+/*home finished*/
+
+#products {
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#neo-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+h1, #nnflex p, .places, .description {
+  margin: 15px 15px;
+}
+
+.titles {
+  font-family: 'playfair display';
+  font-size: 20px;
+}
+
+.nnflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+  position: relative;
+  bottom: 20px;
+}
+
+.places {
+  height: 300px;
+}
+
+
+
+#ams, #ice, #ven {
+  position: relative;
+  bottom: 11px;
+}
+
+
+.description {
+  margin: 10px;
+  width: 200px;
+  font-family: 'playfair display';
+  position: inherit;
+  left: 7px;
+}
+#pro {
+  
+  position: inherit;
+  top: 7px;
+  left: 50px;
+  font-size: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-top: auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: #e3c571;
+  padding: 10px 25px;
+  border-radius: 40px;
+}
+
+
+
+
+/*products finished*/
+
+#products-2 {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+#travelers {
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-top: 25px;
+  position: relative;
+  bottom: 20px;
+  margin: 20px;
+}
+
+iframe {
+  margin-right: 20px;
+}
+
+#norway {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 720px;
+  position: relative;
+  bottom: 20px;
+}
+
+#norway-t {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+}
+
+#norway-h {
+  font-family: 'Playfair display';
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#norway-p {
+  font-family: 'Playfair display';
+  font-size: 16px;
+  width:321px;
+}
+
+/*video ready*/
+
+#about-us {
+  height: 450px;
+  background-color: beige;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-us-in {
+  width: 750px;
+  border-radius: 2px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+h5, h6 {
+  text-align: center;
+  font-family: 'oswald';
+  letter-spacing: 5px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.about {
+  font-family: 'Playfair display';
+  font-size: 16px;
+  letter-spacing: 0px;
+  position: relative;
+  left: 15px;
+  width: 680px;
+}
+
+#who {
+  font-family: 'playfair display';
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;
+  position: relative;
+  left: 15px;
+}
+
+h5, #who, .about, h6 {
+  margin: 10px 0px;
+}
+
+#about-li li {
+  list-style-type: circle;
+  width: 660px;
+  position: relative;
+  left: 30px;
+}
+
+/*about finished*/
+
+#subscribe {
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.74);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#subs-h {
+  font-family: 'oswald';
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.subs-t {
+  font-family: 'playfair display', sans-serif;
+  font-size: 17px;
+  margin: 20px 0px;
+}
+
+#subs-tid {
+  width: 400px;
+}
+
+#email {
+  border-style: hidden hidden solid hidden;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 2px;
+  border-color: black;
+  color: black;
+}
+
+#submit {
+  border-radius: 10px;
+  color: white;
+  background-color: #e0ad20;
+  border-style: hidden;
+  width: 150px;
+  height: 30px;
+
+  font-size: 18px;
+  font-family: 'maven pro';
+  text-transform: uppercase;
+  font-weight: 550;
+  margin-left: 15px;
+}
+
+/*subscribe ready*/
+
+#bottom-bar {
+  height: 40px;
+  background-color:rgb(0, 0, 0);
+  
+}
+
+
+
+@media (max-width: 880px) {
+  #subscribe {
+    width: 100%;
+  }
+  #subs-tid {
+    width: 350px;
+  }
+  #menu li {
+    margin: 0px 10px;
+  }
+  #products {
+    display: flex;
+    flex-direction: column;
+    height: 1550px;
+  }
+  .titles {
+    margin-bottom: -15px;
+  }
+  .description {
+    margin-top: -10px;
+  }
+  #ice {
+    margin-top: 15px;
+  }
+  #neo-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  #ams, #ice, #ven {
+    position: relative;
+    margin-top: 20px;
+  }
+  h4 {
+    position: relative;
+    bottom: 50px;
+    width: 290px;
+    text-align: center;
+    margin: 0px;
+  }
+  #top-nav {
+    display: none;
+  }
+  #whitespace {
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+  }
+  #norway {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #products-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+  }
+  #norway-t {
+    display: flex;
+    flex-direction: column;
+  }
+  #norway-p, #norway-h {
+    width: 80%;
+    margin: auto;
+  }
+  #norway-h {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  #about-us {
+    width:100%;
+    height: 600px;
+  }
+  #about-us-in {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #who {
+    width: 200px;
+    margin: 0px;
+  }
+  
+}
+
+@media (max-width: 720px) {
+  .about, #about-li li {
+    width: 500px;
+    margin: 0px;
+  }
+  #about-us {
+    width:100%;
+    height: 700px;
+  }
+  #about-us-in {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .about, #about-li li {
+    width: 350px;
+    margin: 0px;
+  }
+  #menu li {
+    font-size: 12px;
+    margin: 0px 0px;
+  }
+  #home {
+    height: 300px;
+  }
+  #whitespace {
+    height: 150px;
+  }
+  #subscribe {
+    width: 100%;
+  }
+  h1 {
+    font-size: 25px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  iframe {
+    width: 220px;
+    height: 140px;
+  }
+  #bottom-bar {
+    height: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  #about-us {
+    height: 600px;
+  }
+  #about-us-in {
+    height: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #menu li {
+    margin: 0px -5px;
+  }
+  #norway,#norway-t {
+    width: 294px;
+  }
+  #bottom-bar {
+    height: 170px;
+  }
+ .about {
+    width: 250px;
+  }
+  #about-li li {
+    width: 250px;
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #subs-tid {
+    width: 250px;
+  }
+}
+
+
+input:focus {
+  outline: none;
+}
